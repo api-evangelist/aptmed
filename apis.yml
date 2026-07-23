@@ -1,19 +1,50 @@
 aid: aptmed
-name: aptmed
-description: aptmed is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aptmed.png
+name: APT Medical
+description: >-
+  APT Medical (Suzhou APT Medical Inc., Shanghai Stock Exchange STAR Market 688617.SH)
+  is a Chinese interventional medical-device manufacturer specializing in
+  electrophysiology and cardiovascular intervention. Its product portfolio spans
+  electrophysiology navigation systems, navigated, mapping and ablation catheters,
+  transseptal needles and steerable sheaths, interventional cardiology access,
+  diagnostic and therapeutic products (guiding catheters, PTCA balloon catheters,
+  guidewires), peripheral intervention devices, and OEM/ODM catheter and nitinol
+  components. The company sells globally and publishes clinical cases, expert
+  education, and investor relations material. It is a hardware medical-device
+  manufacturer and does not currently expose a public developer API, developer
+  portal, or machine-readable API artifacts. This profile was surfaced as a
+  portfolio company of Qiming Venture Partners and enriched from public company
+  properties.
 url: https://raw.githubusercontent.com/api-evangelist/aptmed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- MedTech
+- Electrophysiology
+- Interventional Cardiology
+- Medical Device Manufacturer
+- Cardiovascular
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://aptmed.com
+- type: About
+  url: https://aptmed.com/who-we-are
+- type: Blog
+  url: https://aptmed.com/news
+- type: Contact
+  url: https://aptmed.com/contact
+- type: Careers
+  url: https://aptmed.com/careers
+- type: InvestorRelations
+  url: https://aptmed.com/investors
+- type: PrivacyPolicy
+  url: https://aptmed.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
